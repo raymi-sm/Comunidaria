@@ -1,0 +1,354 @@
+<!DOCTYPE html>
+
+<html lang="es" />
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Comunidaria</title>
+<link media="screen" type="text/css" href="styles.css" rel="stylesheet">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
+<script type="text/javascript" src="http://cloud.github.com/downloads/malsup/cycle/jquery.cycle.all.2.74.js"></script>
+<script type="text/javascript">
+$(document).ready(function() {
+    $('#rotate').cycle({
+		fx: 'fade' // choose your transition type, ex: fade, scrollUp, shuffle, etc...
+	});
+});
+</script>
+
+<!--[if IE 7]>
+<link media="screen" type="text/css" href="ie7.css" rel="stylesheet">
+<![endif]-->
+</head>
+<body>
+
+<div id="contenedor">
+	<div id="encabezado">
+		<img src="images/logo.png" alt="Logo Comunidaria" />
+		<img src="images/publicidad-header.jpg" alt="publicidad" id="encabezado-banner" />
+		
+	</div><!--end encabezado-->
+	
+	<div id="menu">
+			<ul>
+				<li id="uno_btn"><a href="" >Crea Tu Blog</a></li>
+				<li id="dos_btn"><a href="" >Ingresa</a></li>
+				<li id="tres_btn"><a href="" >Foto</a></li>
+				<li id="cuatro_btn"><a href="" >Musica</a></li>
+				<li id="cinco_btn"><a href="" >Cuadro</a></li>
+				<li id="seis_btn"><a href="" >Mail</a></li>
+				<li id="siete_btn"><a href="" >Facebook</a></li>
+				<li id="ocho_btn"><a href="" >Twitter</a></li>
+				<li id="nueve_btn"><a href="" >Youtube</a></li>
+				<li id="diez_btn"><a href="" >RSS</a></li>
+			</ul>
+		</div>
+	
+		<div id="contenido-destacado">
+			
+				<div id="slider">
+					<ul id="rotate">
+						<li>
+							<a href="">
+								<img src="images/slider-image-1.jpg" alt="slider image" title="#" />
+							</a>
+							
+							<div class="caption">
+								<h2>Full Metal Panic!, podria tener nuevo anime</h2>
+							</div>	
+						</li>
+						
+						<li>
+							<a href="">
+								<img src="images/slider-image-1.jpg" alt="slider image"  title="#"/>
+							</a>
+							
+							<div class="caption">
+								<h2>Full Metal Panic!, podria tener nuevo anime</h2>
+							</div>
+						</li>
+						
+						<li>
+							<a href="">
+								<img src="images/slider-image-1.jpg" alt="slider image" title="#"/>
+							</a>
+							
+							<div class="caption">
+								<h2>Full Metal Panic!, podria tener nuevo anime</h2>
+							</div>
+						</li>
+					</ul>
+					
+					
+				</div><!--end slider-->
+			
+			<div id="form">
+				<h2>Crea tu blog</h2>
+				<p>Comunidaria es una plataforma de contenidos que te permite publicar noticias. </p>
+				<form>
+					<fieldset>
+						<input type="text" id="nombres" value="Nombres y Apellidos" />
+						<input type="text" id="email" value="Email" />
+						
+						<div class="campos-ejemplo">
+							<input type="text" id="usuario" value="Nombre de Usuario" />
+							<small>*http://nombredeusuario.comunidaria.com</small>
+						</div>
+						
+						<div class="campos-ejemplo">
+							<input type="text" id="contrasena" value="Contrasena" />
+							<small>*Elija una contrase&ntilde;a mayor a 6 caracteres</small>
+						</div>
+						
+						<div id="form-bottom">
+							<a href="" id="registro-btn" id="registro-btn">Registro</a>
+							<small>Ya cuento con blog <a href="#">Ingresar</a></small>
+						</div>
+					</fieldset>
+				</form>
+			</div>
+	</div><!--end contenido-destacado-->
+	
+	<div class="clearfix"></div>
+	
+	<div id="contenido">
+	
+		<div class="tagcloud">
+			<h3>Temas Destacados</h3>
+			<ul>
+				<li><a href="" class="tag-destacado">Facebook</a></li>
+				<li><a href="">Crousillat</a></li>
+				<li><a href="">Anime</a></li>
+				<li><a href="">Literatura </a></li>
+				<li><a href="">Navidad</a></li>
+				<li><a href="">Cine</a></li>
+				<li><a href="" class="tag-destacado">Econom&iacute;a</a></li>
+				<li><a href="">Internet</a></li>
+				<li><a href="">antropolog&iacute;a</a></li>
+				<li><a href="">Foto</a></li>
+				<li><a href="">Zombie Walk </a></li>
+				<li><a href="">Anime</a></li>
+			</ul>
+			
+			<ul>
+				<li><a href="">Comic</a></li>
+				<li><a href="">2012 futbol</a></li>
+				<li><a href="">Crousillat</a></li>
+				<li><a href="">Anime</a></li>
+				<li><a href="">Navidad</a></li>
+				<li><a href="" class="tag-destacado">Literatura</a></li>
+				<li><a href="">Cine</a></li>
+				<li><a href="">Econom&iacute;a</a></li>
+				<li><a href="">Internet</a></li>
+				<li><a href="">Video</a></li>
+				<li><a href="">Foto</a></li>
+				<li><a href="" class="tag-destacado" >Zombie Walk </a></li>
+			</ul>
+		</div><!--end tagcloud-->
+	
+		<div class="publicidad"><img src="images/publicidad-contenido.jpg" alt="publicidad contenido" /></div>
+		
+		<div id="columnas-contenedor">
+			<div class="col" id="col-uno">
+				<h2>Ultimos Posts</h2>
+				<div class="post">
+					<div class="top">
+						<p class="meta">Publicado por <a href="">darane</a></p>
+						<h3><a href="">Nochebuena 2010  & Fuegos Artificiales Legales</a></h3>
+					</div><!--end top-->
+				
+					<div class="bottom">
+						<img src="images/col-1-thumb.jpg" alt="post imagen" />
+						<p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque voluptatem accusantium doloremque.</p>
+					</div><!--end bottom-->
+				</div><!--end post-->
+				
+				<div class="post">
+					<div class="top">
+						<p class="meta">Publicado por <a href="">darane</a></p>
+						<h3><a href="">THOR: Poster fr&aacute;nces de la nueva pel&iacute;cula de Marvel</a></h3>
+					</div><!--end top-->
+				
+					<div class="bottom">
+						<img src="images/col-2-thumb.jpg" alt="post imagen" />
+						<p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque voluptatem accusantium doloremque.</p>
+					</div><!--end bottom-->
+				</div><!--end post-->
+				
+				<div class="post">
+					<div class="top">
+						<p class="meta">Publicado por <a href="">darane</a></p>
+						<h3><a href="">Gantz, presentar&aacute; sus actores en EEUU y Jap&oacute;n el mismo d&iacute;a</a></h3>
+					</div><!--end top-->
+				
+					<div class="bottom">
+						<img src="images/col-3-thumb.jpg" alt="post imagen" />
+						<p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque voluptatem accusantium doloremque.</p>
+					</div><!--end bottom-->
+				</div><!--end post-->
+				
+				<div class="post">
+					<div class="top">
+						<p class="meta">Publicado por <a href="">darane</a></p>
+						<h3><a href="">L'arc&#126;en&#126;Ciel, lanzar&aacute; recopilatorios por sus 20 a&ntilde;os</a></h3>
+					</div><!--end top-->
+				
+					<div class="bottom">
+						<img src="images/col-4-thumb.jpg" alt="post imagen" />
+						<p>Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque voluptatem accusantium doloremque.</p>
+					</div><!--end bottom-->
+				</div><!--end post-->
+			</div><!--end col-uno-->
+			
+			<div class="col" id="col-dos">
+				<h2>Video Blog</h2>
+				<div id="videos">
+					<iframe width="309" height="254" src="http://www.youtube.com/embed/zol2MJf6XNE" frameborder="0" allowfullscreen></iframe>
+				</div>
+				<a href="">Ver mas videos</a>
+				
+				<div id="social-plugin">
+					<img src="images/facebook.jpg" alt="facebook social plugin" />
+				</div><!--end social-plugin-->
+			</div><!--end col-dos-->
+		
+			<div class="col" id="col-tres">
+				<h2>Bloggers</h2>
+				<ul>
+					<li>
+						<div>
+							<img src="images/col-3-avatar-1.jpg" alt="#" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-2.jpg" alt="#" width="51" />
+							<h4><a href="">Bleach Desu</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-3.jpg" alt="#"  width="51"/>
+							<h4><a href="">Anime Wars</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-1.jpg" alt="#" />
+							<h4><a href="">El Asno</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-2.jpg" alt="#" width="51" />
+							<h4><a href="">El Asno</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-3.jpg" alt="#"  width="51"/>
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-1.jpg" alt="#" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-2.jpg" alt="#" width="51" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-3.jpg" alt="#"  width="51"/>
+							<h4><a href="">Bleach Desui</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-1.jpg" alt="#" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-2.jpg" alt="#" width="51" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-3.jpg" alt="#"  width="51"/>
+							<h4><a href="">Bleach Desui</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-1.jpg" alt="#" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-2.jpg" alt="#" width="51" />
+							<h4><a href="">Daria sensei</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+					
+					<li>
+						<div>
+							<img src="images/col-3-avatar-3.jpg" alt="#"  width="51"/>
+							<h4><a href="">Bleach Desui</a></h4>
+							<span><a href=""></a>805 posts</span>
+						</div>
+					</li>
+										
+				</ul>
+			
+			</div><!--end col-tres-->
+		</div><!--end columnas contenedor-->
+	</div><!--end contenido-->
+	
+	<div id="footer">
+			<p> 2010 Comunidaria - Todos los derechos reservados</p>
+			<p class="last">Sitio web creado por Adrianamiranda.com</p>
+		</ul>
+	</div>
+		
+</div><!--end contenedor-->
+
+</body>
+</html>
